@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPOTIFY</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+  <body>
+  <div>
+    <div class="flex justify-between bg-blue-100">
+   <div class="flex justify-between items-center p-5  h-20 w-130 bg-stone-200 ">
+    <i class="fa-brands fa-spotify text-3xl text-green-700 animate-bounce"></i> <span class="text-green-600 font-bold text-2xl"><sup>Spotify</sup></span><span class="text-green-600 font-bold text-2xl">Lite</span>
+    <i class="fa-solid fa-house text-3xl text-blue-700 animate-bounce"></i>
+    <input type="search" placeholder="Search" class="ring-3 ring-black-300 h-7 w-80 bg-gray-200 rounded-md text-center outline-none ml-3">
+   </div>
+   <div class="flex mt-5 gap-2 justify-evenly w-60">
+
+    <a href="#" class="text-xl text-blue-600 hover:text-3xl text-green-700">Premium</a>
+    <a href="#" class="text-xl text-blue-600 hover:text-3xl text-green-700">Support</a>
+    <a href="#" class="text-xl text-blue-600 hover:text-3xl text-green-700">Download</a>
+   
+   
+    </div>
+    <div class="flex justify-evenly items-center mt-3 w-90">
+        <p><i class="fa-solid fa-download  mr-2 animate-bounce hover:scale-170 text-blue-700"></i>Download</p>
+        <button class="ring-1 ring-cyan-300 h-8 w-20 bg-green-600 text-white rounded-md mr-5 hover:rotate-20">Sign up</button>
+        <button class="ring-1 ring-cyan-300 h-8 w-20 bg-white text-black rounded-md hover:rotate-20">Log in</button>
+    </div>
+    </div>
+    <div class=" flex  gap-2 h-170 w-full mt-1">
+        <div class=" h-min w-150 bg-fuchsia-200 outline-none "> 
+            <aside>
+                <div class="flex ">
+                <h1 class=" text-black-300 mt-5 bg-teal-600 text-center text-xl ml-3 w-60 rounded-xl"> YOUR LIBRARY</h1>
+                <i class="fa-solid fa-file mt-5  ml-2 text-4xl text-green-700 animate-bounce"></i>
+                </div>
+                <div class="h-30 bg-fuchsia-200"id="timeanddateshowing">
+                <p id="time"></p>
+                <p id="date"></p>
+                <p id="day"></p>
+                </div>
+                <div class="mt-3 bg-cyan-200 h-90 overflow-y-auto">
+                    <div class="bg-fuchsia-400 flex flex-col  pl-10 rounded-xl">
+                        <h1 class="text-yellow-100 text-3xl">Create Your first Playlist</h1> 
+                        <p class="mt-6 text-2xl text-cyan-100"> it's easy, we'll help you</p>
+                        <button class="ring-1 ring-red rounded-md bg-brown-200 h-10 w-30 mt-5 pb-3 mb-4 text-black-100 animate-bounce hover:bg-cyan-100 rounded-xl text-green-600 ml-5">Create playlist</button>
+                    </div>
+                   <div class="bg-fuchsia-400 flex flex-col  pl-10 mt-5 rounded-xl">
+                        <h1 class=" text-2xl text-yellow-100 pt-4">Let's find some podcasts to follow</h1>
+                        <p class="mt-6 text-green-200">we'll keep you updated on new episodes</p>
+                        <button class="ring-1 ring-red bg-brown-200 rounded h-8 w-30 text-black-800 mt-12 mb-3 animate-bounce hover:bg-cyan-100 rounded-xl text-green-700 ml-5"> Browse podcasts</button>
+                    </div>
+                </div>
+<div class="mt-3 h-55 bg-cyan-200">
+    <div class="flex flex-row mt-5 justify-evenly">
+        <p>Legal</p>
+        <p class="textmd">safety & privacy center</p>
+        <p> privacy policy</p>
+        <p>cookies</p>
+    </div>
+    <div class="flex flex-row mt-3 justify-evenly">
+        <p>About Ads</p>
+        <p>Accessibility</p>
+    </div>
+    <div class="mt-3 flex justify-center">
+        <p class="text-2xl text-center">cookies</p>
+    </div>
+    <div class="mt-6 flex justify-center">
+        <p class="ring-1 ring-cyan-100 h-10 w-20 bg-white rounded-md text-center animate-bounce pt-2 text-xl text-black-700 rounded-xl  w-40"><i class="fa-solid fa-earth-africa mr-5"></i>English</p>
+    </div>
+</div>
+
+            </aside>
+        </div>
+        <div>
+        <div id="rightdiv">
+            
+            </div>
+            <div>
+                <div class="grid grid-cols-4 gap-7 mt-1 h-50 bg-cyan-200">
+                <ul class="ml-15 mt-7">
+                    <li class="mt-2 text-2xl hover:text-red-600"><a href="">Company</a></li>
+                   <li  class="mt-2 text-xl hover:text-orange-600"><a href="">About</a></li>
+                   <li class="mt-2 text-xl hover:text-green-800"><a href="">services</a></li>
+                </ul>
+                <ul class="mt-7">
+                    <li  class="mt-2 text-2xl hover:text-red-600">Communities</li>
+                    <li  class="mt-2 text-xl hover:text-orange-600">For artist</li>
+                    <li  class="mt-2 text-xl hover:text-green-800">Developers</li>
+                </ul>
+                <ul class="mt-7">
+                    <li  class="mt-2 text-2xl hover:text-red-600">Useful links</li>
+                    <li  class="mt-2 text-xl hover:text-orange-600"> support</li>
+                    <li  class="mt-2 text-xl hover:text-green-800">importYourmusic</li>
+                </ul>
+                <ul class="flex flex-row gap-5 mt-20">
+                    <li><a href=""><i class="fa-brands fa-instagram text-3xl text-pink-600 hover:text-4xl"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook text-3xl text-blue-600  hover:text-4xl"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter text-3xl text-blue-600  hover:text-4xl"></i></a><li>
+                </ul>
+                </div> 
+            </div>
+            </div>
+            
+        </div>
+    </div>
+  </div>
+    <script src="spotify.js" type="module"></script>
+  </body>
+</html>
